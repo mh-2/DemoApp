@@ -50,3 +50,10 @@ COMMANDS
     	$ git pull (performs a fetch and a merge, from GitHub/remote to local.)
     		CAUTION!!!
     	$ git push origin master
+        
+COMMANDS for Branching...
+
+        $ git branch [branch-name] (create a branch)
+        $ git checkout [branch-name] (change branches)
+        $ git push -u [origin] [branch]
+        
