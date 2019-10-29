@@ -52,8 +52,12 @@ COMMANDS
     	$ git push origin master
         
 COMMANDS for Branching...
-
+        
+        $ git status (see if master or which branch)
+        $ git checkout -b "new branch name" (creates new branch and enters locally)
+        $ code "new file name.exe"
+        $ git push -u origin branch-name
+        $ git push -u [origin] [branch]
         $ git branch [branch-name] (create a branch)
         $ git checkout [branch-name] (change branches)
-        $ git push -u [origin] [branch]
         
