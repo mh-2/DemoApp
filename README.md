@@ -19,7 +19,7 @@ browse, then select notepadd++ main folder.
 ...now Notepad++ will open by using the command: notepad++
 Configure editor: git config core.editor "notepad++ -multiInst -nosession"
 
-    $ git config (configure tooling)
+    	$ git config (configure tooling)
     	$ git init (initialize a git local repo)
     	$ git clone (clone a repository into local directory... download from remote)
     	$ git add (prepare a file -to staging)
@@ -34,7 +34,8 @@ Configure editor: git config core.editor "notepad++ -multiInst -nosession"
     	$ git add . (add all new files to staging area)
     	$ git commit -m "Initial Commit"
     	$ git push origin master (send from local to GitHub)
-    		if error (bc of changes on remote)...
+
+    If error (bc of changes on remote)...
 
     	$ git fetch (peaks at GitHub to see if anything new has been added)
     		Not destructive, just downloaded changes from remote into local.
@@ -42,7 +43,7 @@ Configure editor: git config core.editor "notepad++ -multiInst -nosession"
     	$ git push origin master
 
 
-OR
+    	OR
 
     	$ git pull (performs a fetch and a merge, from GitHub/remote to local.)
     		CAUTION!!!
