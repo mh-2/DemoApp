@@ -1,4 +1,3 @@
-
 Demo App!!!
 Learn GitHub
 by Mitch Hogue
@@ -21,29 +20,30 @@ browse, then select notepadd++ main folder.
 Configure editor: git config core.editor "notepad++ -multiInst -nosession"
 
     $ git config (configure tooling)
+    	$ git init (initialize a git local repo)
+    	$ git clone (clone a repository into local directory... download from remote)
+    	$ git add (prepare a file -to staging)
+    	$ git commit -m "comment"(commit a file to the repo)
 
-$ git init (create/initialize a git local repo)
-	$ git clone (clone a repository into local directory... download from remote)
-$ git add (prepare a file -to staging)
-	$ git commit -m "comment"(commit a file to the repo)
-$ ls -la (see all files in directory)
-	$ git status (tells you if you are master branch, commits, staged, etc...)
-$ code (opens VS code, default editor)
-	$ code \_\_\_\_ (code + file name opens new file in VS code)
-$ code README.md (creates a readme file)
-	...then save in there
-	...Back in Git Bash...
-	$ git add README.md (or name of new file) (stages file)(to remove use git rm --cached<file>)
+    	$ ls -la (see all files in directory)
+    	$ git status (tells you if you are master branch, commits, staged, etc...)
+    	$ code (opens VS code, use code fileName.ex to open specific file in Code)
+    	$ code README.md (creates a readme file)
 
-$ git add . (add all new files to staging area)
-	$ git commit -m "Initial Commit"
-$ git push origin master (send from local to GitHub)
-		if error (bc of changes on remote)
-			$ git pull / $ git fetch 
-			...then $ git push origin master
+    	$ git add README.md (or name of new file) (stages file)(to remove use git rm --cached<file>)
+    	$ git add . (add all new files to staging area)
+    	$ git commit -m "Initial Commit"
+    	$ git push origin master (send from local to GitHub)
+    		if error (bc of changes on remote)...
 
-\$ git fetch (peaks at GitHub to see if anything new has been added)
-Not destructive, just downloaded changes from remote into local.
+    	$ git fetch (peaks at GitHub to see if anything new has been added)
+    		Not destructive, just downloaded changes from remote into local.
+    	$ git merge...
+    	$ git push origin master
 
-$ git pull (performs a fetch and a merge, from GitHub/remote to local.)
-$ git status (see if local branch if up to date with origin/master.)
+
+OR
+
+    	$ git pull (performs a fetch and a merge, from GitHub/remote to local.)
+    		CAUTION!!!
+    	$ git push origin master
