@@ -35,6 +35,17 @@ COMMANDS
     	$ git clone (clone a repository into local directory... download from remote)
     	$ git add (prepare a file -to staging)
     	$ git commit -m "comment"(commit a file to the repo)
+        
+    If moving a new local repository to GitHub for the first time...
+    
+        $ git remote add origin remote repository URL# Sets the new remote
+        $ git remote -v
+        # Verifies the new remote URL
+        
+    Then push the changes...
+    
+        $ git push origin master
+        # Pushes the changes in your local repository up to the remote repository you specified as the origin
 
     	$ ls -la (see all files in directory)
     	$ git status (tells you if you are master branch, commits, staged, etc...)
