@@ -8,11 +8,18 @@ by Mitch Hogue
 <a href='http://pluralsight.com'><img src='https://gillcleerenpluralsight.blob.core.windows.net/files/pluralsight.png' height='60' alt='Pluralsight Logo'/></a> Starter Course on GitHub
 
 
+
 Configure system properties/advanced/environment variables
+
         ...double click "path variable"...
+        
         ...browse, then select notepadd++ main folder.
+        
         $ git notepad++ ($ git code)
+        
         $ git config core.editor "notepad++ -multiInst -nosession"
+        
+
 
 Open Git Bash
 COMMANDS
